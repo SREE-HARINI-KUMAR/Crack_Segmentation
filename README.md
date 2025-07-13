@@ -74,15 +74,11 @@ Each model was trained to segment cracks at the **pixel level** using a Kaggle d
 
 ## 🖥️ Streamlit Web App
 
-We developed a lightweight Streamlit app for testing the trained models:
+Developed a lightweight Streamlit app for testing the trained models:
 
 ### ▶ Features:
 - Upload building images
 - Choose from the three models
 - View crack masks instantly
 
-### 💻 Run the App Locally:
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
