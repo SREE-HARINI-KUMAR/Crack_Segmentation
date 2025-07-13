@@ -2,7 +2,7 @@
 
 > A deep learning-based semantic segmentation project to detect cracks in building surfaces using FPN, DeepLabV3+, and Attention U-Net. Includes a Streamlit-based app for real-time predictions.
 
-![Hero Banner](crack_segementation.png)
+![Hero Banner](crack_segmentation.png)
 
 ---
 
