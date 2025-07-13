@@ -60,7 +60,7 @@ Each model was trained to segment cracks at the **pixel level** using a Kaggle d
 
 | FPN | DeepLabV3+ | Attention U-Net |
 |-----|------------|-----------------|
-| ![FPN Metrics](images/fpn_metrics.png) | ![DeepLabV3+ Metrics](images/deeplabv3_metrics.png) | ![Attention U-Net Metrics](images/attention_unet_metrics.png) |
+| ![FPN Metrics](fpn_graph.png) | ![DeepLabV3+ Metrics](deeplabv3_graph.png) | ![Attention U-Net Metrics](attention_unet_graph.png) |
 
 ---
 
@@ -68,7 +68,7 @@ Each model was trained to segment cracks at the **pixel level** using a Kaggle d
 
 | FPN | DeepLabV3+ | Attention U-Net |
 |-----|------------|-----------------|
-| ![FPN Output](images/fpn_prediction.png) | ![DLV3+ Output](images/deeplabv3_prediction.png) | ![Attention Output](images/attention_unet_prediction.png) |
+| ![FPN Output](fpn_prediction.png) | ![DLV3+ Output](deeplabv3_prediction.png) | ![Attention Output](attention_unet_prediction.png) |
 
 ---
 
