@@ -56,19 +56,49 @@ Each model was trained to segment cracks at the **pixel level** using a Kaggle d
 
 ---
 
-## 📉 Training Curves
+## 📉 Training Accuracy & Loss
 
-| FPN | DeepLabV3+ | Attention U-Net |
-|-----|------------|-----------------|
-| ![FPN Metrics](fpn_graph.png) | ![DeepLabV3+ Metrics](deeplabv3_graph.png) | ![Attention U-Net Metrics](attention_unet_graph.png) |
+### 🔹 FPN
+**Accuracy & Loss Curve**
+  
+![FPN Accuracy & Loss](fpn_graph.png)
 
 ---
 
-## 🔍 Sample Predictions
+### 🔹 DeepLabV3+
+**Accuracy & Loss Curve**
+  
+![DeepLabV3+ Accuracy & Loss](deeplabv3_graph.png)
 
-| FPN | DeepLabV3+ | Attention U-Net |
-|-----|------------|-----------------|
-| ![FPN Output](fpn_prediction.png) | ![DLV3+ Output](deeplabv3_prediction.png) | ![Attention Output](attention_unet_prediction.png) |
+---
+
+### 🔹 Attention U-Net
+**Accuracy & Loss Curve**
+  
+![Attention U-Net Accuracy & Loss](attention_unet_graph.png)
+
+---
+
+## 🔍 Sample Predictions (Model Outputs)
+
+### 🔹 FPN
+**Crack Segmentation Prediction**
+
+![FPN Prediction](fpn_prediction.png)
+
+---
+
+### 🔹 DeepLabV3+
+**Crack Segmentation Prediction**
+
+![DeepLabV3+ Prediction](deeplabv3_prediction.png)
+
+---
+
+### 🔹 Attention U-Net
+**Crack Segmentation Prediction**
+
+![Attention U-Net Prediction](attention_unet_prediction.png)
 
 ---
 
