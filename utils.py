@@ -15,13 +15,13 @@ def load_models():
     models = {}
     
     try:
-        # Load FPN model
+        
         models['fpn'] = load_fpn_model()
         
-        # Load DeepLabV3+ model
+        
         models['deeplab'] = load_deeplabv3_model()
         
-        # Load Attention UNet model
+        
         models['attenunet'] = load_attenunet_model()
         
         return models
