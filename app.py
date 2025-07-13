@@ -212,7 +212,7 @@ def main():
                 model = load_fpn_model()
             elif model_choice == "DeepLabV3+":
                 model = load_deeplabv3_model()
-            else:  # Attention UNet
+            else: 
                 model = load_attenunet_model()
         
         # Image upload
